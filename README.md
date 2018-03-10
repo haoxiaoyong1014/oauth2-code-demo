@@ -1,49 +1,41 @@
-homeinns-web
+Oauth2-code
 ============
 
-项目介绍:
----------------
+###项目介绍:
+        oauth2授权码模式
         开发环境: IntelliJ IDEA+ JDK1.8
-        
-1. Maven构建SpringMVC基础架构
-
-
-
-
-
-#文档
-Maven
------
+        Maven构建SpringMVC基础架构
+###oauth2相关文档
+> http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html (作者： 阮一峰)  
+http://blog.csdn.net/seccloud/article/details/8192707 (作者:  SecCloud)
+http://blog.csdn.net/u013815546/article/details/76898524(作者:徐靖峰)
+http://blog.didispace.com/tags/Oauth2/ (作者:翟永超) 
+---
+其中 徐靖峰和翟永超讲述的是 oauth2.0中密码模式和客户端模式的demo,以及源码分析
+    
+###补充文档
+####Maven
 http://mvnrepository.com/<br/>
 http://search.maven.org/
-Spring
-------
+####Spring
 http://projects.spring.io/spring-framework/<br/>
 http://docs.spring.io/spring/docs/4.0.5.RELEASE/spring-framework-reference/html/spring-web.html
-Mybatis
--------
+####Mybatis
 http://mybatis.github.io/spring/zh/index.html
-FreeMarker
----------
+####FreeMarker
 http://freemarker.org/
-Druid
------
+####Druid
 https://github.com/alibaba/druid
-Quartz
-------
+####Quartz
 http://quartz-scheduler.org/documentation
-Ehcache
--------
+####Ehcache
 http://ehcache.org/documentation/get-started
-OsCache
--------
+####OsCache
 https://java.net/downloads/oscache/
-MapDB
------
+####MapDB
 http://www.mapdb.org/doc/cheatsheet.pdf
 http://www.mapdb.org/02-getting-started.html
-Logback
--------
+####Logback
 http://logback.qos.ch/manual/index.html
 
 ##测试 OAuth2
@@ -55,12 +47,12 @@ http://localhost:8080/oauth2/access_token?client_id=fbed1d1b4b1449daa4bc49397cbe
 
 ###使用客户端代码测试
 确保程序8080端口运行后访问
-http://localhost:8080/oauth2/client
+http://localhost:8080/client
 
 > AuthzController:获取授权码
 
 > TokenController:获取 token
 
-> ClientController:客户端服务,可以调用ClientController 中的方法进行测试也可使用上面的 url进行测试
+> ClientController:客户端服务,可以调用ClientController 中的方法进行测试(http://localhost:8080/client)也可使用上面的 url进行测试(获得授权码,获得令牌)
 
 > ResourceController:资源服务 
