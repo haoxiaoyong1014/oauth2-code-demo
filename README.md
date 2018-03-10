@@ -6,7 +6,7 @@ Oauth2-code
         开发环境: IntelliJ IDEA+ JDK1.8
         Maven构建SpringMVC基础架构
 ----        
-###oauth2相关文档
+oauth2相关文档
 
 > http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html (作者： 阮一峰)  
 http://blog.csdn.net/seccloud/article/details/8192707 (作者:  SecCloud)
@@ -15,49 +15,48 @@ http://blog.didispace.com/tags/Oauth2/ (作者:翟永超)
 ---
 其中 徐靖峰和翟永超讲述的是 oauth2.0中密码模式和客户端模式的demo,以及源码分析
     
-> ###补充文档
+> 补充文档
 ---
 > Maven
----
+
 > http://mvnrepository.com/<br/>
 http://search.maven.org/
 ---
 > Spring
----
+
 > http://projects.spring.io/spring-framework/<br/>
 http://docs.spring.io/spring/docs/4.0.5.RELEASE/spring-framework-reference/html/spring-web.html
 ---
-> ####Mybatis
----
+> Mybatis
+
 > http://mybatis.github.io/spring/zh/index.html
 ---
-> ####FreeMarker
----
+> FreeMarker
+
 > http://freemarker.org/
 ---
-> ####Druid
----
+> Druid
+
 > https://github.com/alibaba/druid
 ---
-> ####Quartz
----
+> Quartz
 > http://quartz-scheduler.org/documentation
 ---
-> ####Ehcache
----
+> Ehcache
+
 > http://ehcache.org/documentation/get-started
 ---
-> ####OsCache
----
+> OsCache
+
 > https://java.net/downloads/oscache/
 ---
-> ####MapDB
----
+> MapDB
+
 > http://www.mapdb.org/doc/cheatsheet.pdf
 http://www.mapdb.org/02-getting-started.html
 ---
-> ####Logback
----
+> Logback
+
 > http://logback.qos.ch/manual/index.html
 ---
 
