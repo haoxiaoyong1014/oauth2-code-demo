@@ -15,52 +15,31 @@ http://blog.didispace.com/tags/Oauth2/ (作者:翟永超)
 ---
 其中 徐靖峰和翟永超讲述的是 oauth2.0中密码模式和客户端模式的demo,以及源码分析
     
-###补充文档
-
----
-####Maven
-
----
-http://mvnrepository.com/<br/>
+> ###补充文档
+> ####Maven
+> http://mvnrepository.com/<br/>
 http://search.maven.org/
-####Spring
-
----
-http://projects.spring.io/spring-framework/<br/>
+> ####Spring
+> http://projects.spring.io/spring-framework/<br/>
 http://docs.spring.io/spring/docs/4.0.5.RELEASE/spring-framework-reference/html/spring-web.html
-####Mybatis
-
----
-http://mybatis.github.io/spring/zh/index.html
-####FreeMarker
-
----
-http://freemarker.org/
-####Druid
-
----
-https://github.com/alibaba/druid
-####Quartz
-
----
-http://quartz-scheduler.org/documentation
-####Ehcache
-http://ehcache.org/documentation/get-started
-####OsCache
-
----
-https://java.net/downloads/oscache/
-####MapDB
-
----
-http://www.mapdb.org/doc/cheatsheet.pdf
+> ####Mybatis
+> http://mybatis.github.io/spring/zh/index.html
+> ####FreeMarker
+> http://freemarker.org/
+> ####Druid
+> https://github.com/alibaba/druid
+> ####Quartz
+> http://quartz-scheduler.org/documentation
+> ####Ehcache
+> http://ehcache.org/documentation/get-started
+> ####OsCache
+> https://java.net/downloads/oscache/
+> ####MapDB
+> http://www.mapdb.org/doc/cheatsheet.pdf
 http://www.mapdb.org/02-getting-started.html
-####Logback
+> ####Logback
+> http://logback.qos.ch/manual/index.html
 
----
-http://logback.qos.ch/manual/index.html
-
----
 ##测试 OAuth2
 ###获得授权码
 http://localhost:8080/oauth2/authorize?client_id=fbed1d1b4b1449daa4bc49397cbe2350&response_type=code&redirect_uri=http://localhost:8080/oauth2/login
