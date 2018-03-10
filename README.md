@@ -1,7 +1,7 @@
 Oauth2-code
 ============
 
-###项目介绍:
+项目介绍:
         oauth2授权码模式
         开发环境: IntelliJ IDEA+ JDK1.8
         Maven构建SpringMVC基础架构
@@ -16,29 +16,50 @@ http://blog.didispace.com/tags/Oauth2/ (作者:翟永超)
 其中 徐靖峰和翟永超讲述的是 oauth2.0中密码模式和客户端模式的demo,以及源码分析
     
 > ###补充文档
-> ####Maven
+---
+> Maven
+---
 > http://mvnrepository.com/<br/>
 http://search.maven.org/
-> ####Spring
+---
+> Spring
+---
 > http://projects.spring.io/spring-framework/<br/>
 http://docs.spring.io/spring/docs/4.0.5.RELEASE/spring-framework-reference/html/spring-web.html
+---
 > ####Mybatis
+---
 > http://mybatis.github.io/spring/zh/index.html
+---
 > ####FreeMarker
+---
 > http://freemarker.org/
+---
 > ####Druid
+---
 > https://github.com/alibaba/druid
+---
 > ####Quartz
+---
 > http://quartz-scheduler.org/documentation
+---
 > ####Ehcache
+---
 > http://ehcache.org/documentation/get-started
+---
 > ####OsCache
+---
 > https://java.net/downloads/oscache/
+---
 > ####MapDB
+---
 > http://www.mapdb.org/doc/cheatsheet.pdf
 http://www.mapdb.org/02-getting-started.html
+---
 > ####Logback
+---
 > http://logback.qos.ch/manual/index.html
+---
 
 ##测试 OAuth2
 ###获得授权码
