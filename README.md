@@ -55,7 +55,7 @@ http://localhost:8080/oauth2/access_token?client_id=fbed1d1b4b1449daa4bc49397cbe
 
 ###使用客户端代码测试
 确保程序8080端口运行后访问
-http://localhost:8080/oauth2/client
+http://localhost:8080/client
 
 > AuthzController:获取授权码
 
