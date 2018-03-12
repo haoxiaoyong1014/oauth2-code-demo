@@ -11,11 +11,11 @@
     <title>用户登录</title>
 </head>
 <body>
-<form action="/signin" method="POST">
+<form action="/oauth2/signin" method="POST">
     客户端</br>
     <input type="text" name="name" value="Irving" /> </br>
     <input type="password" name="pwd" value="123456"/></br>
-    <a href="/oauth2/authorize?client_id=fbed1d1b4b1449daa4bc49397cbe2350&response_type=code&redirect_uri=http://localhost:8080/oauth_callback">
+    <a href="/oauth2/authorize?client_id=fbed1d1b4b1449daa4bc49397cbe2350&response_type=code&redirect_uri=http://localhost:8080/client/oauth_callback">
         OAuth2登录
     </a></br>
     <input type="submit" value="登录"/>

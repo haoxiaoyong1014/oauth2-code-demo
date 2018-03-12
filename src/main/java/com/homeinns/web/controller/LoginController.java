@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * Created by Irving on 2014/7/6.
  */
 @Controller
-@RequestMapping("/test")
+@RequestMapping("/oauth2")
 public class LoginController {
 
     private static Logger logger = LoggerFactory.getLogger(HomeController.class);

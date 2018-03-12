@@ -100,7 +100,8 @@ public class ClientController {
             OAuthResourceResponse resourceResponse = oAuthClient.resource(bearerClientRequest, OAuth.HttpMethod.GET, OAuthResourceResponse.class);
             String resBody = resourceResponse.getBody();
             logger.info("accessToken: "+accessToken +" refreshToken: "+refreshToken +" expiresIn: "+expiresIn +" resBody: "+resBody);
-            model.addAttribute("accessToken",  "accessToken: "+accessToken + " resBody: "+resBody);
+            //model.addAttribute("accessToken",  "accessToken: "+accessToken + " resBody: "+resBody);
+            model.addAttribute("accessToken",  "accessToken: "+accessToken);
             return "oauth2/token";
         } catch (OAuthSystemException ex) {
             logger.error("getToken OAuthSystemException : " + ex.getMessage());
